@@ -6,10 +6,12 @@ use cipher::{
 };
 
 mod ctr128;
+mod ctr16;
 mod ctr32;
 mod ctr64;
 
 pub use ctr128::*;
+pub use ctr16::*;
 pub use ctr32::*;
 pub use ctr64::*;
 

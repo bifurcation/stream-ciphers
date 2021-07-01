@@ -71,6 +71,10 @@ pub type Ctr64LE<B> = Ctr<B, flavors::Ctr64LE>;
 pub type Ctr32BE<B> = Ctr<B, flavors::Ctr32BE>;
 /// CTR mode with 32-bit little endian counter.
 pub type Ctr32LE<B> = Ctr<B, flavors::Ctr32LE>;
+/// CTR mode with 16-bit big endian counter.
+pub type Ctr16BE<B> = Ctr<B, flavors::Ctr16BE>;
+/// CTR mode with 16-bit little endian counter.
+pub type Ctr16LE<B> = Ctr<B, flavors::Ctr16LE>;
 
 /// Generic CTR block mode isntance.
 #[derive(Clone)]
